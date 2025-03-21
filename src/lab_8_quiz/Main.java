@@ -8,13 +8,9 @@ package lab_8_quiz;
  *
  * @author DELL
  */
-public class Lab_8_Quiz {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Main {
     public static void main(String[] args) {
-        // TODO code application logic here
+        ReproductorMusica reproductor = new ReproductorMusica();
+        reproductor.setVisible(true);
     }
-    
 }
